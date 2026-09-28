@@ -199,7 +199,7 @@ function App() {
             <header className="topbar">
                 <div className="brand">
                     <span className="brand-badge">📦</span>
-                    <h1>Telusko Trac</h1>
+                    <h1>Product Cart</h1>
                 </div>
                 <div className="top-actions">
                     <button className="btn btn-light" onClick={fetchProducts} disabled={loading}>
@@ -290,10 +290,10 @@ function App() {
                         {error && <div className="error-msg">{error}</div>}
                     </div>
 
-                   
+
 
                     {/*TaglineSection / */}
-                    
+
 
                     <div className="card list-card">
                         <h2>Products</h2>
@@ -366,7 +366,7 @@ function App() {
                             </div>
                         )}
                     </div>
-                    
+
                 </div>
             </div>
         </div>
